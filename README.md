@@ -42,8 +42,4 @@ For more details, visit the link: [Quantum Recommendation System](https://arxiv.
 ## About us
 [Trong Duong Dinh](https://github.com/MyEntangled)- Korea Advanced Institute of Science and Technology, Year 2
 
-<<<<<<< HEAD
 [Bao Bach Gia](https://github.com/bachbao) - Ho Chi Minh University of Technology, Year 2 
-=======
-[Bao Bach Gia](https://github.com/bachbao) - Ho Chi Minh University of Technology, Year 2 
->>>>>>> fd898103f32d6e6fb0fac08b0ee8188308b20a35
