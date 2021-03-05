@@ -7,6 +7,19 @@ This is the first implementation of the paper [Quantum Recommendation System](ht
 
 ## Quantum Recommendation System in a nutshell
 
+<<<<<<< HEAD
+Quantum Recommendation System can be described briefly with 6 steps.
+
+* **Step 1** : Prepare the preference matrix <img src="https://render.githubusercontent.com/render/math?math=T"> .
+* **Step 2** : Construct the quantum state using the binary structure created from the preference matrix <img src="https://render.githubusercontent.com/render/math?math=T">. Initialize the state using pre-computed amplitudes and quantum access to
+this classical data structure (binary tree) based on [paper](https://arxiv.org/pdf/quant-ph/0208112.pdf)
+* **Step 3** : Uniform subsample from matrix <img src="https://render.githubusercontent.com/render/math?math=T"> to achieve <img src="https://render.githubusercontent.com/render/math?math=\hat{T}"> .
+* **Step 4** : Perform QSVE ( Quantum Singular Value Estimation ) to achieve <img src="https://render.githubusercontent.com/render/math?math=\hat{T}_k"> (<img src="https://render.githubusercontent.com/render/math?math=\left \| T-T_k \right \| < \varepsilon \left \| T \right \|_F">
+ for some small <img src="https://render.githubusercontent.com/render/math?math=\varepsilon > 0"> ) .
+* **Step 5** : Apply quantum projection algorithm with threshold <img src="https://render.githubusercontent.com/render/math?math=\sigma = \sqrt{\frac{\varepsilon^2 p}{2k}}\left \| \hat{T} \right \|_F">
+ to <img src="https://render.githubusercontent.com/render/math?math=T">, the vector corresponding to the <img src="https://render.githubusercontent.com/render/math?math=i">-th row <img src="https://render.githubusercontent.com/render/math?math=\hat{T}_i"> .
+* **Step 6** : Measure projected state to get the recommendation .
+=======
 Quantum Recommendation System can be described briefly with 5 steps.
 
 * **Step 1** : Prepare the preference matrix <img src="https://render.githubusercontent.com/render/math?math=T"> .
@@ -16,6 +29,7 @@ Quantum Recommendation System can be described briefly with 5 steps.
 * **Step 4** : Apply quantum projection algorithm with threshold <img src="https://render.githubusercontent.com/render/math?math=\sigma = \sqrt{\frac{\varepsilon^2 p}{2k}}\left \| \hat{T} \right \|_F">
  to <img src="https://render.githubusercontent.com/render/math?math=T">, the vector corresponding to the <img src="https://render.githubusercontent.com/render/math?math=i">-th row <img src="https://render.githubusercontent.com/render/math?math=\hat{T}_i"> .
 * **Step 5** : Measure projected state to get the recommendation .
+>>>>>>> fd898103f32d6e6fb0fac08b0ee8188308b20a35
 
 For more details, visit the link: [Quantum Recommendation System](https://arxiv.org/pdf/1603.08675.pdf)
 
@@ -28,4 +42,8 @@ For more details, visit the link: [Quantum Recommendation System](https://arxiv.
 ## About us
 [Trong Duong Dinh](https://github.com/MyEntangled)- Korea Advanced Institute of Science and Technology, Year 2
 
+<<<<<<< HEAD
 [Bao Bach Gia](https://github.com/bachbao) - Ho Chi Minh University of Technology, Year 2 
+=======
+[Bao Bach Gia](https://github.com/bachbao) - Ho Chi Minh University of Technology, Year 2 
+>>>>>>> fd898103f32d6e6fb0fac08b0ee8188308b20a35
